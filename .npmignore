@@ -1,0 +1,9 @@
+node_modules/
+
+src/
+.gitignore
+index.ts
+tsconfig.json
+.gitlab-ci.yml
+
+**/__test__/
