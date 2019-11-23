@@ -31,7 +31,7 @@ jobs:
       run: |
         export REDIS_HOST=localhost
         npm install
-        npm test:cov
+        npm run test:cov
     - name: publish
       run: |
         npm config set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN

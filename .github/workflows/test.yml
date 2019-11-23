@@ -30,4 +30,4 @@ jobs:
       run: |
         export REDIS_HOST=localhost
         npm i
-        npm test:cov
+        npm run test:cov
